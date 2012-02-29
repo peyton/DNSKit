@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CF19DCD14FEBAA00038EAEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF19DCC14FEBAA00038EAEA /* UIKit.framework */; };
+		9CF19DCF14FEBAA00038EAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF19DCE14FEBAA00038EAEA /* Foundation.framework */; };
+		9CF19DD114FEBAA00038EAEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF19DD014FEBAA00038EAEA /* CoreGraphics.framework */; };
+		9CF19DD714FEBAA00038EAEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CF19DD514FEBAA00038EAEA /* InfoPlist.strings */; };
+		9CF19DD914FEBAA00038EAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF19DD814FEBAA00038EAEA /* main.m */; };
+		9CF19DDD14FEBAA00038EAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF19DDC14FEBAA00038EAEA /* AppDelegate.m */; };
+		9CF19DE014FEBAA00038EAEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF19DDF14FEBAA00038EAEA /* ViewController.m */; };
+		9CF19DEB14FEBAA10038EAEA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF19DEA14FEBAA10038EAEA /* SenTestingKit.framework */; };
+		9CF19DEC14FEBAA10038EAEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF19DCC14FEBAA00038EAEA /* UIKit.framework */; };
+		9CF19DED14FEBAA10038EAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF19DCE14FEBAA00038EAEA /* Foundation.framework */; };
+		9CF19DF514FEBAA10038EAEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CF19DF314FEBAA10038EAEA /* InfoPlist.strings */; };
+		9CF19DF814FEBAA10038EAEA /* DNSKit_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF19DF714FEBAA10038EAEA /* DNSKit_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CF19DEE14FEBAA10038EAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF19DBF14FEBAA00038EAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF19DC714FEBAA00038EAEA;
+			remoteInfo = "DNSKit Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CF19DC814FEBAA00038EAEA /* DNSKit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNSKit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF19DCC14FEBAA00038EAEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CF19DCE14FEBAA00038EAEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CF19DD014FEBAA00038EAEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CF19DD414FEBAA00038EAEA /* DNSKit Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNSKit Demo-Info.plist"; sourceTree = "<group>"; };
+		9CF19DD614FEBAA00038EAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CF19DD814FEBAA00038EAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CF19DDA14FEBAA00038EAEA /* DNSKit Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DNSKit Demo-Prefix.pch"; sourceTree = "<group>"; };
+		9CF19DDB14FEBAA00038EAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CF19DDC14FEBAA00038EAEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CF19DDE14FEBAA00038EAEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CF19DDF14FEBAA00038EAEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CF19DE914FEBAA00038EAEA /* DNSKit DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DNSKit DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF19DEA14FEBAA10038EAEA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9CF19DF214FEBAA10038EAEA /* DNSKit DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNSKit DemoTests-Info.plist"; sourceTree = "<group>"; };
+		9CF19DF414FEBAA10038EAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CF19DF614FEBAA10038EAEA /* DNSKit_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNSKit_DemoTests.h; sourceTree = "<group>"; };
+		9CF19DF714FEBAA10038EAEA /* DNSKit_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSKit_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CF19DC514FEBAA00038EAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF19DCD14FEBAA00038EAEA /* UIKit.framework in Frameworks */,
+				9CF19DCF14FEBAA00038EAEA /* Foundation.framework in Frameworks */,
+				9CF19DD114FEBAA00038EAEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF19DE514FEBAA00038EAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF19DEB14FEBAA10038EAEA /* SenTestingKit.framework in Frameworks */,
+				9CF19DEC14FEBAA10038EAEA /* UIKit.framework in Frameworks */,
+				9CF19DED14FEBAA10038EAEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CF19DBD14FEBAA00038EAEA = {
+			isa = PBXGroup;
+			children = (
+				9CF19DD214FEBAA00038EAEA /* DNSKit Demo */,
+				9CF19DF014FEBAA10038EAEA /* DNSKit DemoTests */,
+				9CF19DCB14FEBAA00038EAEA /* Frameworks */,
+				9CF19DC914FEBAA00038EAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF19DC914FEBAA00038EAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF19DC814FEBAA00038EAEA /* DNSKit Demo.app */,
+				9CF19DE914FEBAA00038EAEA /* DNSKit DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF19DCB14FEBAA00038EAEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CF19DCC14FEBAA00038EAEA /* UIKit.framework */,
+				9CF19DCE14FEBAA00038EAEA /* Foundation.framework */,
+				9CF19DD014FEBAA00038EAEA /* CoreGraphics.framework */,
+				9CF19DEA14FEBAA10038EAEA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CF19DD214FEBAA00038EAEA /* DNSKit Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9CF19DDB14FEBAA00038EAEA /* AppDelegate.h */,
+				9CF19DDC14FEBAA00038EAEA /* AppDelegate.m */,
+				9CF19DDE14FEBAA00038EAEA /* ViewController.h */,
+				9CF19DDF14FEBAA00038EAEA /* ViewController.m */,
+				9CF19DD314FEBAA00038EAEA /* Supporting Files */,
+			);
+			path = "DNSKit Demo";
+			sourceTree = "<group>";
+		};
+		9CF19DD314FEBAA00038EAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF19DD414FEBAA00038EAEA /* DNSKit Demo-Info.plist */,
+				9CF19DD514FEBAA00038EAEA /* InfoPlist.strings */,
+				9CF19DD814FEBAA00038EAEA /* main.m */,
+				9CF19DDA14FEBAA00038EAEA /* DNSKit Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CF19DF014FEBAA10038EAEA /* DNSKit DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF19DF614FEBAA10038EAEA /* DNSKit_DemoTests.h */,
+				9CF19DF714FEBAA10038EAEA /* DNSKit_DemoTests.m */,
+				9CF19DF114FEBAA10038EAEA /* Supporting Files */,
+			);
+			path = "DNSKit DemoTests";
+			sourceTree = "<group>";
+		};
+		9CF19DF114FEBAA10038EAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF19DF214FEBAA10038EAEA /* DNSKit DemoTests-Info.plist */,
+				9CF19DF314FEBAA10038EAEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CF19DC714FEBAA00038EAEA /* DNSKit Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF19DFB14FEBAA10038EAEA /* Build configuration list for PBXNativeTarget "DNSKit Demo" */;
+			buildPhases = (
+				9CF19DC414FEBAA00038EAEA /* Sources */,
+				9CF19DC514FEBAA00038EAEA /* Frameworks */,
+				9CF19DC614FEBAA00038EAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DNSKit Demo";
+			productName = "DNSKit Demo";
+			productReference = 9CF19DC814FEBAA00038EAEA /* DNSKit Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CF19DE814FEBAA00038EAEA /* DNSKit DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF19DFE14FEBAA10038EAEA /* Build configuration list for PBXNativeTarget "DNSKit DemoTests" */;
+			buildPhases = (
+				9CF19DE414FEBAA00038EAEA /* Sources */,
+				9CF19DE514FEBAA00038EAEA /* Frameworks */,
+				9CF19DE614FEBAA00038EAEA /* Resources */,
+				9CF19DE714FEBAA00038EAEA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF19DEF14FEBAA10038EAEA /* PBXTargetDependency */,
+			);
+			name = "DNSKit DemoTests";
+			productName = "DNSKit DemoTests";
+			productReference = 9CF19DE914FEBAA00038EAEA /* DNSKit DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CF19DBF14FEBAA00038EAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = peyton;
+			};
+			buildConfigurationList = 9CF19DC214FEBAA00038EAEA /* Build configuration list for PBXProject "DNSKit Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CF19DBD14FEBAA00038EAEA;
+			productRefGroup = 9CF19DC914FEBAA00038EAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CF19DC714FEBAA00038EAEA /* DNSKit Demo */,
+				9CF19DE814FEBAA00038EAEA /* DNSKit DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CF19DC614FEBAA00038EAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF19DD714FEBAA00038EAEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF19DE614FEBAA00038EAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF19DF514FEBAA10038EAEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CF19DE714FEBAA00038EAEA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF19DC414FEBAA00038EAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF19DD914FEBAA00038EAEA /* main.m in Sources */,
+				9CF19DDD14FEBAA00038EAEA /* AppDelegate.m in Sources */,
+				9CF19DE014FEBAA00038EAEA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF19DE414FEBAA00038EAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF19DF814FEBAA10038EAEA /* DNSKit_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CF19DEF14FEBAA10038EAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF19DC714FEBAA00038EAEA /* DNSKit Demo */;
+			targetProxy = 9CF19DEE14FEBAA10038EAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CF19DD514FEBAA00038EAEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF19DD614FEBAA00038EAEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CF19DF314FEBAA10038EAEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF19DF414FEBAA10038EAEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CF19DF914FEBAA10038EAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CF19DFA14FEBAA10038EAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CF19DFC14FEBAA10038EAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNSKit Demo/DNSKit Demo-Prefix.pch";
+				INFOPLIST_FILE = "DNSKit Demo/DNSKit Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CF19DFD14FEBAA10038EAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNSKit Demo/DNSKit Demo-Prefix.pch";
+				INFOPLIST_FILE = "DNSKit Demo/DNSKit Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9CF19DFF14FEBAA10038EAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DNSKit Demo.app/DNSKit Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNSKit Demo/DNSKit Demo-Prefix.pch";
+				INFOPLIST_FILE = "DNSKit DemoTests/DNSKit DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9CF19E0014FEBAA10038EAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DNSKit Demo.app/DNSKit Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DNSKit Demo/DNSKit Demo-Prefix.pch";
+				INFOPLIST_FILE = "DNSKit DemoTests/DNSKit DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CF19DC214FEBAA00038EAEA /* Build configuration list for PBXProject "DNSKit Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF19DF914FEBAA10038EAEA /* Debug */,
+				9CF19DFA14FEBAA10038EAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF19DFB14FEBAA10038EAEA /* Build configuration list for PBXNativeTarget "DNSKit Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF19DFC14FEBAA10038EAEA /* Debug */,
+				9CF19DFD14FEBAA10038EAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CF19DFE14FEBAA10038EAEA /* Build configuration list for PBXNativeTarget "DNSKit DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF19DFF14FEBAA10038EAEA /* Debug */,
+				9CF19E0014FEBAA10038EAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CF19DBF14FEBAA00038EAEA /* Project object */;
+}
